@@ -3,4 +3,6 @@ def fun1():
     def fun2():
         return random.randint(0, 100)
     return fun2
-print(fun1())
+fff = fun1()
+for i in range(20):
+    print(fff())
